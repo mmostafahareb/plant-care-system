@@ -38,9 +38,10 @@ def is_soil_dry():
     return is_dry
 
 def water_the_plant():
+    GPIO.output(40, GPIO.HIGH)
     print("Pin 40 set to high (1)")
     time.sleep(15)
-    GPIO.output(OUTPUT_PIN, GPIO.LOW)
+    GPIO.output(40, GPIO.LOW)
     return int(time.time())  # Return Unix timestamp
 
 def rotate_camera():

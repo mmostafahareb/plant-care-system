@@ -1,0 +1,9 @@
+plant_name,min_humidity,max_humidity,min_temp,max_temp
+bamboo,40,60,18,35
+aloe vera,40,60,13,27
+basil,40,60,10,30
+rosemary,30,50,10,30
+orchid,50,70,15,25
+snake plant,30,50,15,30
+peace lily,40,60,18,27
+test,100,100,100,100

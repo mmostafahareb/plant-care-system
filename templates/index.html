@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Plant Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            background: #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .green-icon { color: green; }
+        .dark-blue-icon { color: darkblue; }
+        .red-icon { color: red; }
+        .grey-blue-icon { color: #708090; }
+    </style>
+</head>
+<body>
+    <h1>Current Plant Status</h1>
+    <p><i class="fas fa-leaf green-icon"></i> Plant: {{ plant }}</p>
+    <p><i class="fas fa-water dark-blue-icon"></i> Last Watered: {{ last_watered }}</p>
+    <p><i class="fas fa-thermometer-half red-icon"></i> Temperature: {{ temp }}°C</p>
+    <p><i class="fas fa-tint grey-blue-icon"></i> Humidity: {{ humidity }}%</p>
+</body>
+</html>

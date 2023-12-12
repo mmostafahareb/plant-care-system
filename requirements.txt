@@ -1,0 +1,11 @@
+Flask
+APScheduler
+numpy
+pandas
+twilio
+Adafruit-DHT
+RPi.GPIO
+gpiozero
+tensorflow
+picamera
+Pillow
